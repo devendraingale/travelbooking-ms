@@ -9,5 +9,6 @@ public class hotel {
     @GetMapping("/myhotel")
     public String getData() {
         return "Book you hotel";
-    }
+    
+}
 }
