@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class hotel {
     @GetMapping("/myhotel")
     public String getData() {
-        return "Book you hotel";
+        return "Book you hotels";
     
 }
 }
